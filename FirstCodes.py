@@ -21,7 +21,7 @@ area = length * width
 volume = length * width * height
 
 print(f"The area is : {area} cm^2")
-print(f"The Volume is : {volume} cm^2")
+print(f"The Volume is : {volume} cm^3")
 
 # 3 shopping card
 
