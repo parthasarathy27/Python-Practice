@@ -33,7 +33,7 @@ To run the scripts and projects in this repository, you'll need the following:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/parthasarathy 27/python-practice.git
+   git clone https://github.com/parthasarathy27/python-practice.git
    cd python-practice
    ```
 
