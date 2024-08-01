@@ -124,7 +124,7 @@ Please ensure your code adheres to the existing style and includes comments wher
 
 ## Contact
 
-For any questions or feedback, please contact [your name](mailto:your.email@example.com).
+For any questions or feedback, please contact [Email](mailto:parthasarathyg2002@gmail.com).
 
 ---
 
