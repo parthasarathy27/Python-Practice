@@ -1,5 +1,6 @@
 # Python Writing files (.txt, .json, .csv)
 
+# txt File
 
 employees = ["Professor", "Berlin", "Tokyo", "Rio"]
 
@@ -14,8 +15,8 @@ try:
 except FileExistsError:
     print("That file already exists!")
 
+# json File
 
-'''
 import json
 
 employee = {
@@ -33,9 +34,9 @@ try:
 
 except FileExistsError:
     print("That file already exists!")
-'''
 
-'''
+# CSV File
+
 import csv
 
 employees = [["Name", "Age", "Job"],
@@ -54,4 +55,3 @@ try:
 
 except FileExistsError:
     print("That file already exists!")
-'''
