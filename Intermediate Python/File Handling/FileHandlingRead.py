@@ -1,7 +1,7 @@
 # Python reading files (.txt, .json, .csv)
 
+# txt file
 
-'''
 file_path = "D:/files/employees.txt"
 
 try:
@@ -14,9 +14,9 @@ except FileNotFoundError:
 
 except PermissionError:
     print("You do not have permission to read that file")
-'''
 
-'''
+# json File
+
 import json
 
 file_path = "D:/files/employeedata.json"
@@ -31,7 +31,8 @@ except FileNotFoundError:
 
 except PermissionError:
     print("You do not have permission to read that file")
-'''
+
+# csv File
 
 import csv
 
