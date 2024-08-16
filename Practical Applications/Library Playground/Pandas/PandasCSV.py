@@ -19,3 +19,12 @@ data = pd.read_csv('data.csv')
 print(data) 
 
 # same as json data = pd.read_json('demo.json')
+
+# finding Duplicate
+
+print(data.duplicated())
+
+# removing duplicate
+
+data.drop_duplicates(inplace = True)
+print(data)
