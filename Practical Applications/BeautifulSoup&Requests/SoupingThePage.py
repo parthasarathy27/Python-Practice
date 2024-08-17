@@ -15,6 +15,7 @@ for link in soup.find_all('a'):
     print(f'Link from the webside : {link.get('href')}')
   
 # output:
+
 '''
 <!DOCTYPE html>
 
