@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Hi friends</h1>
+<p>Hey there!
+    Thanks for joining/ordering. We’re thrilled to have you.
+    Welcome to this page! Get ready for some amazing deals and updates right here. 😊</p>
+{% if is_logged_in %}
+<h3>List of movies</h3>
+<ul>
+    {% for movie in movies %}
+    <li>{{movie}}</li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>Please log in to access...</p>
+{% endif %}
+</body>
+</html>
