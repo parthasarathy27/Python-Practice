@@ -26,8 +26,8 @@ sunset_timestamp = response['sys']['sunset'] + response['timezone']
 sunrise_time = dt.datetime.fromtimestamp(sunrise_timestamp, tz=timezone.utc).astimezone(tz=None)
 sunset_time = dt.datetime.fromtimestamp(sunset_timestamp, tz=timezone.utc).astimezone(tz=None)
 
-print(f"Temperature in {City} : {temp_celsius:.2f}degC or {temp_fahrenheit:.2f}degF")
-print(f"Temperature in {City} feels like : {feels_like_celsius:.2f}degC or {feels_like_fahrenheit:.2f}degF")
+print(f"Temperature in {City} : {temp_celsius:.2f}°C or {temp_fahrenheit:.2f}°F")
+print(f"Temperature in {City} feels like : {feels_like_celsius:.2f}°C or {feels_like_fahrenheit:.2f}°F")
 print(f"Humidity in {City} : {humidity}%")
 print(f"Wind speed in {City} : {wind_speed}m/s")
 print(f"General Weather in {City} : {description}")
